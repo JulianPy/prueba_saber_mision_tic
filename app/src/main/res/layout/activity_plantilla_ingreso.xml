@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".plantilla_ingreso"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista de Materias"
+            android:textSize="70dp"
+            android:textColor="@color/black"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingles"
+                android:gravity="center">
+            </TextView>
+            <ImageView
+                android:id="@+id/ingles"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ingles">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biologia"
+                android:gravity="center">
+            </TextView>
+            <ImageView
+                android:id="@+id/biologia"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/biologia">
+            </ImageView>
+
+            <Button
+                android:id="@+id/sesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cerrar Sesion"
+                android:layout_marginTop="40dp">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lectura"
+                android:gravity="center">
+            </TextView>
+            <ImageView
+                android:id="@+id/lectura"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/lectura">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sociales"
+                android:gravity="center">
+            </TextView>
+            <ImageView
+                android:id="@+id/sociales"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sociales">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
